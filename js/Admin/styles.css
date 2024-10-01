@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.dashboard h1 span {
+    font-size: 14px;
+    color: #777;
+}
+
+.breadcrumb {
+    margin-bottom: 20px;
+}
+
+.breadcrumb a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.widgets {
+    display: flex;
+    gap: 20px;
+}
+
+.widget {
+    flex: 1;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.widget .icon {
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+.widget .info h3 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.widget .info p {
+    margin: 5px 0 0;
+    color: #777;
+}
+
+.eye {
+    color: #4CAF50;
+}
+
+.cart {
+    color: #2196F3;
+}
+
+.comments {
+    color: #FF5722;
+}
+
+.users {
+    color: #FFC107;
+}
